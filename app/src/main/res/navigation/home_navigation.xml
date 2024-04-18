@@ -32,5 +32,20 @@
         <action
             android:id="@+id/action_detailFragment_to_homeFragment"
             app:destination="@id/itemHome" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="author"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="url"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="id"
+            app:argType="integer" />
     </fragment>
 </navigation>

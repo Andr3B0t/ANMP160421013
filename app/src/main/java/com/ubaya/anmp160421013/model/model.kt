@@ -11,12 +11,14 @@ data class Berita(
     val id:Int,
     val nama:String?,
     val url:String?,
-    val writer_username:String?
+    val writer_username:String?,
+    val desc:String?
 )
 
 data class Detail(
     val id: Int,
     val page:Int?,
+    val subtitle:String,
     val isi:String?,
     val beritas_id:Int?
 )

@@ -15,7 +15,7 @@ class HomePage : AppCompatActivity() {
     private lateinit var navController: NavController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityHomePageBinding   .inflate(layoutInflater)
+        binding = ActivityHomePageBinding.inflate(layoutInflater)
         setContentView(binding.root)
         navController = (supportFragmentManager.findFragmentById(R.id.hostFragment) as NavHostFragment).navController
 //        NavigationUI.setupActionBarWithNavController(this, navController)

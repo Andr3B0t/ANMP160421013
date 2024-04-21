@@ -37,6 +37,7 @@ class ProfileFragment : Fragment() {
         binding.txtUsername.setText(shared.getString("username",""))
         binding.txtNamaDepan.setText(shared.getString("nama_depan",""))
         binding.txtNamaBelakang.setText(shared.getString("nama_belakang",""))
+        binding.txtPassword.setText(shared.getString("password",""))
         binding.btnChange.setOnClickListener {
             val q = Volley.newRequestQueue(this.requireContext())
             val url_target = "https://uasfspjav.000webhostapp.com/ganti_password.php"

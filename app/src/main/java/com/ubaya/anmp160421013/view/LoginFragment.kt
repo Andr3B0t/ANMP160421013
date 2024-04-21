@@ -71,6 +71,7 @@ class LoginFragment : Fragment() {
                         editor.putString("username", user.username)
                         editor.putString("nama_depan", user.nama_depan)
                         editor.putString("nama_belakang", user.nama_belakang)
+                        editor.putString("password", user.password)
                         editor.apply()
                         Toast.makeText(this.requireContext(), "Login Success", Toast.LENGTH_SHORT).show()
                         startActivity(intent)

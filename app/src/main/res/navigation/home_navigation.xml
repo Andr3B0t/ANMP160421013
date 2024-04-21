@@ -27,8 +27,8 @@
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.ubaya.anmp160421013.view.DetailFragment"
-        android:label="fragment_detail"
-        tools:layout="@layout/fragment_detail" >
+        android:label="Details"
+        tools:layout="@layout/fragment_detail">
         <action
             android:id="@+id/action_detailFragment_to_homeFragment"
             app:destination="@id/itemHome" />
